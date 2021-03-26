@@ -46,7 +46,7 @@ A* algorithm has been implemented in a 2D grid. The car is assumed to have a 3 d
 The car is capable of three actions namely moving forward (F), turn right & move forward (R), turn left & move forward (L).
 The cost of each movement has been given as well.
 
-![](3_A star algorithm/outputs/a_star_output.png)
+![](3_A_star_algorithm/outputs/a_star_output.png)
 
 ### Assignment 4 - Sampling based Navigation
 A probabilistic roadmap metho is apploed to motion planning of a 2D robot moving in an environment with static obstacles.
