@@ -1,8 +1,4 @@
-CPSC 8810 Assignment 3
-
-Done by
-Ajinkya Joglekar		C72342264
-Manikand Balaji Venkatesan	C13093637
+# A star algorithm
 
 Methods created
 
@@ -51,4 +47,7 @@ f_prev - previouscost object of node if it is found to be present in open set
 f_prev_f - the previous f value of node if it is found to be present in open_set.
 total_cost_neighbour - the total cost of moving from parent node to a child node.
 
+## Output
+
+![](outputs/a_star_output)
 
