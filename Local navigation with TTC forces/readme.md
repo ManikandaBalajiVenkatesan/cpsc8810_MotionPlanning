@@ -1,4 +1,4 @@
-cpsc8810_assignment1
+# Local navigation with TTC forces
 
 The following functions and variables were implemented and used for simulating 3_agent and 8 agent scenarios.
 
@@ -40,14 +40,17 @@ Parameters:
 19. epsilon - uncertainity for relative velocity set to 0.2
 20. eta - random perturbation for relative velocity
 
+## Outputs
 
+### 3 Agents
 
-For extra credit question agent_powerlaw.py & simulator_powerlaw.py are created.
-Parameters exclusively used for powerlaw model:
-k - scaling factor was set to 1
-m - exponent of the power law which was set to 1
+![](outputs/p2_3_agents.gif)
 
-For extra credit question 1 we implemented Powerlaw model from slide 40 of Lecture 06 file and checked for epsilon 0 and 0.2
+### 8 Agents
 
-For extra credit question 2 we implemented random perturbation of eta
-For extra credit question 3 we implemented adversarial uncertainity model along with powerlaw
+![](outputs/p2_8_agents.gif)
+
+### Multi Agents
+
+![](outputs/p2_multi_agents.gif)
+
