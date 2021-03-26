@@ -54,7 +54,7 @@ A roadmap of nodes are created randomly and connected via edges.
 Start and goal location are choosen and a path joining to start and goal is formed.
 A* algorithm is applied to find the optimal path from star to goal from all the possible paths generated previously.
 
-![](4_prm_planner/outputs/prm_default.png)
+![](4_PRM_planner/outputs/prm_default.png)
 
 ### Final Project - RRT* for turtlebot
 The project named "Implementation of RRT* Algorithm for motion planning of Turtlebot in Gazebo" was done in collaboration by 
