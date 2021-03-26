@@ -7,7 +7,7 @@ neighbour_orientation
 	Takes parent node and child node as input.
 	Returns orientation as output.
 
-	Finds the differene between child node and parent node coordinates is calculated and compared with forward list that was provided.
+Finds the differene between child node and parent node coordinates is calculated and compared with forward list that was provided.
 
 find_neighbour
 To determine the feasible neighbour around a node
