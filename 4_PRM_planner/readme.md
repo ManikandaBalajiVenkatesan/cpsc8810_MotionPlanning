@@ -1,11 +1,7 @@
-Project 4 PRM planner
-
-Submitted by:
-Ajinkya Joglekar		C72342264
-Manikanda Balaji Venkatesan	C13093637
+# PRM planner
 
 
-Methods
+## Methods
 
 k_nearest_neighbors
 	To identify 'k' number of neighboring vertices that are around a given vertex , to form edges along with it. When checking for K nearest neighbors we filter out those vertices that have been already visited, this would eliminate instances of loop formation as well as duplicate edge being formed between two vertices. In addition to number of neighbors we also limit the neighbors to be less than d units of distance so that the vertex doesnt form an edge with another vertex that is far away, thereby this ensures that the far way edge would have form a edge with another vertex that is nearby it.
@@ -34,7 +30,7 @@ path_cost
 	Determines the distance between child node and parent node and adds path cost of parent node , this results in path cost of child node. 
 
 
-Parameters
+## Parameters
 
 xx - range of numbers for x coordinate between x limits of the canvas
 yy - range of numbers for y coordinate between y limit of the canvas
@@ -51,13 +47,30 @@ end_vertice - object of qgoal vertex
 connetedComponentNr - Flag to indicate whether a vertex has been visited
 vert_k - temporary variable that is used to store object of vertex
 
-astar parameters
+## astar parameters
 parent - list to store parent node for each child node
 cost_history - list to store cost of each node
 neighbours - temporary list to store child nodes of a parent node in astar
 child_id - id of the child
 child_vertex - object of child
 f_prev - previous cost of child 
+
+## Outputs
+
+The algorithm was checked with default queries and as well as random queries to get the path as follows.
+
+### Default query
+
+![](outputs/prm_default.png)
+
+### Random query 1
+
+![](outputs/prm_rand_1.png)
+
+### Random query 2
+
+![](outputs/prm_rand_2.png)
+
 
 
 
